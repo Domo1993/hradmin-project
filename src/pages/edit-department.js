@@ -3,6 +3,7 @@ import { Formik, Field, Form } from "formik";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../hooks/useAuth";
 import { useEffect } from "react";
+import "../styles/pages/createEmployee.css";
 
 function EditDepartment() {
   const navigateTo = useNavigate();
@@ -14,7 +15,7 @@ function EditDepartment() {
     }
   }, []);
   return (
-    <div>
+    <div className="createContainer">
       <h1>Edit Department</h1>
       <Formik
         initialValues={{

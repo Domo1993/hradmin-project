@@ -1,0 +1,40 @@
+/** @format */
+
+.createContainer {
+  margin-left: 10px;
+  width: 60%;
+}
+.createContainer .inputWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.createContainer .inputWrapper input {
+  max-width: 500px;
+  width: 70%;
+  border: 2px solid black;
+  padding: 2px;
+}
+.createContainer .inputWrapper select {
+  max-width: 500px;
+  width: 71%;
+  border: 2px solid black;
+  border-radius: 0px;
+  padding: 2px;
+}
+
+.createContainer .buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.createContainer .buttons button {
+  background-color: white;
+  border: 2px solid black;
+  font-size: 500;
+  margin-left: 10px;
+  cursor: pointer;
+}
