@@ -1,0 +1,48 @@
+/** @format */
+
+.navContainer {
+  border: 2px solid black;
+  height: 300px;
+}
+
+.navContainer .navInner {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.navContainer a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 5px;
+}
+
+.navContainer a:last-child {
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
+.navContainer a:hover,
+.navContainer .logoutBtn:hover {
+  background: black;
+  color: white;
+}
+
+.navContainer .activeNav {
+  text-decoration: underline;
+}
+
+.navContainer li {
+  list-style: none;
+}
+
+.navContainer .logoutBtn {
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  padding: 5px 5px;
+  text-align: left;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 36.1px;
+}

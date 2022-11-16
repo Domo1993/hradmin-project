@@ -1,0 +1,71 @@
+/** @format */
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.containerInner {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 50px 0 100px 0;
+}
+
+legend {
+  margin-left: 20px;
+}
+
+h1 {
+}
+
+.loginForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  min-width: 300px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.inputField label {
+  margin-bottom: 10px;
+}
+
+.inputField input {
+  border: 3px solid black;
+  padding: 3px;
+}
+
+.inputField .passwordEyeBtn {
+  position: absolute;
+  right: 0;
+  top: 37px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.button {
+  margin-top: 30px;
+  font-weight: 700;
+  background-color: white;
+  border: 3px solid black;
+  padding: 3px 50px;
+  cursor: pointer;
+}

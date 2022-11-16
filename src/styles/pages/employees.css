@@ -1,0 +1,92 @@
+/** @format */
+
+.employeesContainer {
+  margin-left: 10px;
+}
+
+.employeesContainer .filterSection .dropdownWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.employeesContainer .dropdownWrapper label {
+  width: 100px;
+}
+
+.employeesContainer .dropdownWrapper select {
+  width: 200px;
+  border: 2px solid black;
+}
+
+.employeesContainer .filterBtn {
+  background-color: white;
+  border: 2px solid black;
+  cursor: pointer;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+.employeesContainer .filterBtn span {
+  margin-left: 3px;
+  font-weight: 500;
+}
+
+.tableSection {
+  margin-top: 30px;
+}
+
+.moreFiltersSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.searchWrapper {
+  border: 2px solid black;
+}
+.searchWrapper i {
+  padding-left: 3px;
+}
+.searchWrapper input {
+  border: none;
+  outline: none;
+  padding-bottom: 3px;
+}
+
+.moreFiltersSection {
+  display: flex;
+}
+
+.tableSection table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.tableSection table th,
+.tableSection table td {
+  border-right: 2px solid black;
+  border-collapse: collapse;
+  padding: 0px 1px;
+}
+
+.tableSection th {
+  font-weight: 500;
+  text-align: left;
+}
+
+.tableSection thead tr {
+  background-color: rgb(142, 142, 142);
+}
+
+.tableSection tbody tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.tableSection thead button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
